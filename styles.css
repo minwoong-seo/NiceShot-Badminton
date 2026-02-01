@@ -348,7 +348,16 @@ body {
     align-items: start;
   }
 
+  .strings-desktop-wrap .string-list:first-of-type {
+    order: 1;
+  }
+
+  .strings-desktop-wrap .string-list:last-of-type {
+    order: 2;
+  }
+
   .strings-desktop-wrap .section-divider {
+    order: 3;
     grid-column: 1 / -1;
     margin: 0.75rem 0;
   }
