@@ -1,0 +1,277 @@
+/* NiceShot Badminton Stringing – Price List */
+
+:root {
+  --bg-page: #0a0a0a;
+  --bg-card: #111111;
+  --border-glow: rgba(212, 175, 55, 0.5);
+  --gold: #d4af37;
+  --gold-light: #f4d03f;
+  --text: #f5f5f5;
+  --text-muted: #b0b0b0;
+  --notice: #e8b84a;
+  --dot-red: #c0392b;
+  --dot-green: #27ae60;
+  --dot-yellow: #f1c40f;
+  --dot-white: #ecf0f1;
+  --dot-grey: #7f8c8d;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg-page);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 420px;
+  width: 100%;
+  background: var(--bg-card);
+  border-radius: 20px;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow:
+    0 0 30px rgba(212, 175, 55, 0.15),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+  padding: 2rem 1.75rem;
+  position: relative;
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.logo-icon {
+  color: var(--gold-light);
+  font-size: 1.1rem;
+}
+
+.logo-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  color: var(--text);
+}
+
+.title-script {
+  font-family: "Great Vibes", cursive;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--gold);
+  margin: 0 0 0.25rem 0;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin: 0;
+}
+
+.subtitle-small {
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0.15rem 0 0 0;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.string-list,
+.other-services {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.string-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.string-row.highlight .string-name {
+  font-weight: 600;
+}
+
+.star {
+  color: var(--gold-light);
+  font-size: 0.9rem;
+}
+
+.string-name {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+.string-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.dot.red { background: var(--dot-red); }
+.dot.green { background: var(--dot-green); }
+.dot.yellow { background: var(--dot-yellow); }
+.dot.white { background: var(--dot-white); border: 1px solid rgba(0,0,0,0.2); }
+.dot.grey { background: var(--dot-grey); }
+
+.string-label {
+  margin-left: auto;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.string-price {
+  margin-left: auto;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.deco-trees {
+  text-align: center;
+  font-size: 0.9rem;
+  letter-spacing: 0.5rem;
+  margin: 0.25rem 0;
+}
+
+.wavy-line {
+  height: 4px;
+  margin: 0.5rem 0;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 8px,
+    var(--gold) 8px,
+    var(--gold) 10px
+  );
+  border-radius: 2px;
+  opacity: 0.8;
+}
+
+.notice {
+  font-size: 0.7rem;
+  line-height: 1.45;
+  color: var(--notice);
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.device-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  padding: 0.75rem 0;
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.device-image {
+  flex-shrink: 0;
+}
+
+.device-placeholder {
+  width: 80px;
+  height: 60px;
+  background: linear-gradient(135deg, #2980b9 0%, #1a5276 100%);
+  border: 2px solid var(--gold);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--text);
+}
+
+.device-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.device-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0 0 0.2rem 0;
+  color: var(--text);
+}
+
+.device-subtitle {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.card-footer {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.contact {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 0;
+  color: var(--text);
+}
+
+@media (min-width: 480px) {
+  .card {
+    padding: 2.5rem 2rem;
+  }
+
+  .title-script {
+    font-size: 2.75rem;
+  }
+
+  .string-row {
+    font-size: 0.9rem;
+  }
+}
