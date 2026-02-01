@@ -304,82 +304,122 @@ body {
   }
 }
 
-/* Desktop: wider card, two-column string list */
+/* Desktop: full desktop-sized card, two-column string list */
 @media (min-width: 900px) {
   .page {
-    padding: 2.5rem 1.5rem;
+    padding: 3rem 2rem;
   }
 
   .card {
-    max-width: 720px;
-    padding: 2.5rem 2.5rem;
+    max-width: 1000px;
+    padding: 3rem 3rem;
+    border-radius: 24px;
   }
 
   .card-header {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .logo-icon svg {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
+  .logo-text {
+    font-size: 1.1rem;
   }
 
   .title-main {
-    font-size: 2.75rem;
+    font-size: 3.25rem;
   }
 
   .subtitle {
-    font-size: 0.8rem;
+    font-size: 0.95rem;
   }
 
   .subtitle-small {
-    font-size: 0.7rem;
+    font-size: 0.85rem;
   }
 
   .strings-desktop-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0 2.5rem;
+    gap: 0 3rem;
     align-items: start;
   }
 
   .strings-desktop-wrap .section-divider {
     grid-column: 1 / -1;
-    margin: 0.5rem 0;
+    margin: 0.75rem 0;
   }
 
   .card-main {
-    gap: 1.25rem;
+    gap: 1.5rem;
+  }
+
+  .string-list,
+  .other-services {
+    gap: 0.6rem;
   }
 
   .string-row {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
+  }
+
+  .star {
+    font-size: 1.05rem;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
   }
 
   .string-label {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .string-price {
+    font-size: 1.05rem;
+  }
+
+  .wavy-line {
+    height: 5px;
+    margin: 0.75rem 0;
   }
 
   .notice {
-    font-size: 0.75rem;
-    margin: 1.25rem 0;
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+    padding: 0.75rem 0;
   }
 
   .device-section {
-    margin: 1.25rem 0;
+    margin: 1.5rem 0;
+    padding: 1rem 0;
   }
 
   .device-title {
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
 
   .device-subtitle {
-    font-size: 0.7rem;
+    font-size: 0.85rem;
   }
 
   .device-placeholder {
-    width: 90px;
-    height: 68px;
-    font-size: 0.6rem;
+    width: 110px;
+    height: 82px;
+    font-size: 0.7rem;
+  }
+
+  .card-footer {
+    padding-top: 1.5rem;
   }
 
   .contact {
-    font-size: 0.9rem;
+    font-size: 1.05rem;
   }
 }
 
