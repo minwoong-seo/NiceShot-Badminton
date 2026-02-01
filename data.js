@@ -7,7 +7,7 @@ const PRICE_LIST_DATA = {
   strings: [
     [
       { name: "AEROBITE", dots: ["red", "white"], price: 23, available: true },
-      { name: "BG-80", dots: ["red", "white"], price: 18, highlight: true, label: "BEST SELLER", available: true },
+      { name: "BG-80", dots: ["red", "white"], price: 18, highlight: true, label: "BEST SELLER", available: false },
       { name: "BG-80P", dots: ["red", "white"], price: 20, available: true },
       { name: "BG-66U", dots: ["green", "white"], price: 18, available: true },
       { name: "EX-63", dots: ["yellow", "white"], price: 22, highlight: true, label: "RECOMMENDED", available: true },
