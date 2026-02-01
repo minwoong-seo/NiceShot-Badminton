@@ -26,131 +26,31 @@
       </header>
 
       <main class="card-main">
-        <div class="strings-desktop-wrap">
-          <section class="string-list">
-            <div class="string-row">
-              <span class="string-name">AEROBITE</span>
-              <span class="string-dots">
-                <span class="dot red"></span><span class="dot white"></span>
-              </span>
-              <span class="string-price">£23</span>
-            </div>
-            <div class="string-row highlight">
-              <span class="star">★</span>
-              <span class="string-name">BG-80</span>
-              <span class="string-dots">
-                <span class="dot red"></span><span class="dot white"></span>
-              </span>
-              <span class="string-label">BEST SELLER</span>
-              <span class="string-price">£18</span>
-            </div>
-            <div class="string-row">
-              <span class="string-name">BG-80P</span>
-              <span class="string-dots">
-                <span class="dot red"></span><span class="dot white"></span>
-              </span>
-              <span class="string-price">£20</span>
-            </div>
-            <div class="string-row">
-              <span class="string-name">BG-66U</span>
-              <span class="string-dots">
-                <span class="dot green"></span><span class="dot white"></span>
-              </span>
-              <span class="string-price">£18</span>
-            </div>
-            <div class="string-row highlight">
-              <span class="star">★</span>
-              <span class="string-name">EX-63</span>
-              <span class="string-dots">
-                <span class="dot yellow"></span><span class="dot white"></span>
-              </span>
-              <span class="string-label">RECOMMENDED</span>
-              <span class="string-price">£22</span>
-            </div>
-            <div class="string-row">
-              <span class="string-name">EX-65</span>
-              <span class="string-dots">
-                <span class="dot yellow"></span><span class="dot white"></span>
-              </span>
-              <span class="string-price">£22</span>
-            </div>
-            <div class="string-row">
-              <span class="string-name">ABBT</span>
-              <span class="string-dots">
-                <span class="dot red"></span><span class="dot grey"></span>
-              </span>
-              <span class="string-price">£20</span>
-            </div>
-          </section>
-          <div class="section-divider" aria-hidden="true"></div>
-          <section class="string-list">
-            <div class="string-row">
-              <span class="string-name">NANOGY-95</span>
-              <span class="string-dots">
-                <span class="dot yellow"></span><span class="dot white"></span>
-              </span>
-              <span class="string-price">£18</span>
-            </div>
-            <div class="string-row">
-              <span class="string-name">BG-65</span>
-              <span class="string-dots"><span class="dot white"></span></span>
-              <span class="string-price">£15</span>
-            </div>
-            <div class="string-row highlight">
-              <span class="star">★</span>
-              <span class="string-name">BG-65TI</span>
-              <span class="string-dots"><span class="dot white"></span></span>
-              <span class="string-label">DURABLE BEAST</span>
-              <span class="string-price">£16</span>
-            </div>
-            <div class="string-row">
-              <span class="string-name">EX-68</span>
-              <span class="string-dots"><span class="dot white"></span></span>
-            <span class="string-price">£22</span>
-          </div>
-          </section>
-        </div>
+        <div class="strings-desktop-wrap" id="strings-desktop-wrap"></div>
 
-        <section class="other-services">
-          <div class="string-row">
-            <span class="string-name">OWN STRING PROVIDED</span>
-            <span class="string-price">£10</span>
-          </div>
-          <div class="wavy-line"></div>
-          <div class="string-row">
-            <span class="string-name">Grommet set</span>
-            <span class="string-price">£5</span>
-          </div>
-          <div class="string-row highlight">
-            <span class="star">★</span>
-            <span class="string-name">GRIP UPGRADE</span>
-            <span class="string-label">BOX OF 5</span>
-            <span class="string-price">£5</span>
-          </div>
-        </section>
+        <section class="other-services" id="other-services"></section>
 
-        <p class="notice">
-          Services are typically completed within 5 working days, depending on queue. Express service (£3) available for next working day.
-        </p>
+        <p class="notice" id="notice-text"></p>
 
         <section class="device-section">
           <div class="device-image">
             <div class="device-placeholder">
-              <span>YONEX</span>
-              <span>PRECISION 3.2</span>
+              <span id="device-placeholder-line1"></span>
+              <span id="device-placeholder-line2"></span>
             </div>
           </div>
           <div class="device-info">
-            <p class="device-title">Stringing machine: Yonex Precision 3.2</p>
-            <p class="device-subtitle">Latest Yonex stringing technology</p>
+            <p class="device-title" id="device-title"></p>
+            <p class="device-subtitle" id="device-subtitle"></p>
           </div>
         </section>
 
         <footer class="card-footer">
-          <a class="contact" href="https://wa.me/447881056665">WhatsApp: 07881 056665</a>
+          <a class="contact" id="contact-link" href=""></a>
         </footer>
       </main>
     </article>
   </div>
+  <script src="data.js"></script>
 </body>
 </html>
