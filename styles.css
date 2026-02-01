@@ -304,6 +304,85 @@ body {
   }
 }
 
+/* Desktop: wider card, two-column string list */
+@media (min-width: 900px) {
+  .page {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .card {
+    max-width: 720px;
+    padding: 2.5rem 2.5rem;
+  }
+
+  .card-header {
+    margin-bottom: 2rem;
+  }
+
+  .title-main {
+    font-size: 2.75rem;
+  }
+
+  .subtitle {
+    font-size: 0.8rem;
+  }
+
+  .subtitle-small {
+    font-size: 0.7rem;
+  }
+
+  .strings-desktop-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2.5rem;
+    align-items: start;
+  }
+
+  .strings-desktop-wrap .section-divider {
+    grid-column: 1 / -1;
+    margin: 0.5rem 0;
+  }
+
+  .card-main {
+    gap: 1.25rem;
+  }
+
+  .string-row {
+    font-size: 0.95rem;
+  }
+
+  .string-label {
+    font-size: 0.7rem;
+  }
+
+  .notice {
+    font-size: 0.75rem;
+    margin: 1.25rem 0;
+  }
+
+  .device-section {
+    margin: 1.25rem 0;
+  }
+
+  .device-title {
+    font-size: 0.85rem;
+  }
+
+  .device-subtitle {
+    font-size: 0.7rem;
+  }
+
+  .device-placeholder {
+    width: 90px;
+    height: 68px;
+    font-size: 0.6rem;
+  }
+
+  .contact {
+    font-size: 0.9rem;
+  }
+}
+
 @media print {
   body {
     background: #fff;
