@@ -1,6 +1,6 @@
 /**
  * NiceShot Price List – Edit prices, colors (dots), labels, and availability here.
- * Dots: "red" | "green" | "yellow" | "white" | "grey"
+ * Dots: "red" | "green" | "yellow" | "white" | "grey" | "blue" | "orange" | "purple" | "black"
  */
 
 const PRICE_LIST_DATA = {

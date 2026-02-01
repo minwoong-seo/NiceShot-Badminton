@@ -14,6 +14,10 @@
   --dot-yellow: #f1c40f;
   --dot-white: #ecf0f1;
   --dot-grey: #7f8c8d;
+  --dot-blue: #3498db;
+  --dot-orange: #e67e22;
+  --dot-purple: #9b59b6;
+  --dot-black: #2c3e50;
 }
 
 *,
@@ -165,6 +169,10 @@ body {
 .dot.yellow { background: var(--dot-yellow); }
 .dot.white { background: var(--dot-white); border: 1px solid rgba(0,0,0,0.2); }
 .dot.grey { background: var(--dot-grey); }
+.dot.blue { background: var(--dot-blue); }
+.dot.orange { background: var(--dot-orange); }
+.dot.purple { background: var(--dot-purple); }
+.dot.black { background: var(--dot-black); }
 
 .string-label {
   margin-left: auto;
